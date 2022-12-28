@@ -1,0 +1,84 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+}
+
+.contenedor-imagen{
+    height: 100vh;
+    width: 100vw;
+    position: fixed;
+    z-index: -1;
+}
+
+.contenedor-imagen > img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.container{
+    width: 90%;
+    max-width: 900px;
+    /* background-color: rgba(27, 27, 50, 0.8); */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    padding: 50px 0 0 50px;
+}
+
+.headerText{
+    padding: 30px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.form{
+    background-color: rgba(27, 27, 50, 0.8);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 20px;
+    margin-bottom: 100px;
+}
+
+.form > div {
+    width: 100%;
+    padding: 15px;
+    margin: auto;
+    transform: translateX(30px);
+}
+.form > div > label{
+    display: block;
+}
+
+.input-control{
+    width: 90%;
+    padding: 5px;
+    color: grey;
+}
+
+.submit-button{
+    background-color: rgb(49, 103, 59);
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    width: 90%;
+}
+
+.campo4 > select > option {
+    color: black;
+}
+.input-textarea{
+    resize: none;
+    width: 90%;
+    padding: 5px;
+    height: 300px;
+}
+

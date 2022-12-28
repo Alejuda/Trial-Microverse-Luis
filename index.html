@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Microverse Trial</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="contenedor-imagen">
+      <img
+        src="https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg"
+        alt=""
+      />
+    </div>
+    <div class="container">
+      <header class="headerText">
+        <h1>Microverse Trial</h1>
+        <p>Luis Aranguren - Ignacio Fino</p>
+      </header>
+      <form class="form">
+        <div class="campo1">
+          <label for="name">Nombre</label>
+          <input
+            type="text"
+            name="name"
+            class="input-control"
+            placeholder="Ingrese su nombre"
+            required
+          />
+        </div>
+        <div class="campo2">
+          <label for="email">Email</label>
+          <input
+            type="text"
+            name="email"
+            class="input-control"
+            placeholder="Ingrese su email"
+            required
+          />
+        </div>
+        <div class="campo3">
+          <label for="age">Age</label>
+          <input
+            type="number"
+            name="age"
+            class="input-control"
+            placeholder="Ingrese su edad"
+          />
+        </div>
+        <div class="campo4">
+          <p>Que opcion describe mejor tu rol actual?</p>
+          <select id="dropdown" name="role" class="input-control" required="">
+            <option disabled="" selected="" value="">selecciona el rol</option>
+            <option>estudiante</option>
+            <option>Trabajador de tiempo completo</option>
+            <option>Estudiante de tiempo completo</option>
+            <option>Prefiero no decirlo</option>
+            <option>Otro</option>
+          </select>
+        </div>
+        <div class="campo5">
+          <p>Recomendarias Microverse a un amigo?</p>
+          <label>
+            <input type="radio" class="radio-input" />
+            Definitivamente
+          </label>
+          <label>
+            <input type="radio" class="radio-input" />
+            probablemente
+          </label>
+          <label>
+            <input type="radio" class="radio-input" />
+            Nunca
+          </label>
+        </div>
+        <div class="campo6">
+          <p>
+            Que decearias mejorar?
+            <span class="clue">(selecciona todas las que apliquen)</span>
+          </p>
+
+          <label
+            ><input type="checkbox" class="input-checkbox" />Front-end
+            Projects</label
+          >
+          <label>
+            <input type="checkbox" class="input-checkbox" />Back-end
+            Projects</label
+          >
+          <label
+            ><input type="checkbox" class="input-checkbox" />Data
+            Visualization</label
+          >
+          <label
+            ><input type="checkbox" class="input-checkbox" />Challenges</label
+          >
+          <label
+            ><input type="checkbox" class="input-checkbox" />Open Source
+            Community</label
+          >
+          <label
+            ><input type="checkbox" class="input-checkbox" />Gitter help
+            rooms</label
+          >
+          <label><input type="checkbox" class="input-checkbox" />Videos</label>
+          <label
+            ><input type="checkbox" class="input-checkbox" />City Meetups</label
+          >
+          <label><input type="checkbox" class="input-checkbox" />Wiki</label>
+          <label><input type="checkbox" class="input-checkbox" />Forum</label>
+          <label
+            ><input type="checkbox" class="input-checkbox" />Additional
+            Courses</label
+          >
+        </div>
+        <div class="campo7">
+          <p>Algun comentario o sugerencia?</p>
+          <textarea
+            class="input-textarea"
+            name="comment"
+            placeholder="Ingresa tu comentario aqui..."
+          ></textarea>
+        </div>
+        <div class="campo8">
+          <button type="submit" class="submit-button">ENVIAR</button>
+        </div>
+      </form>
+  </div>
+  </body>
+</html>
